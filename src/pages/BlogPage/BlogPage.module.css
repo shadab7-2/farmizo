@@ -1,0 +1,18 @@
+.pageWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #2a7b2a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blogGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}

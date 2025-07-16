@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #1a5d1a;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover,
+.link.active {
+  text-decoration: underline;
+}
+
+.cart {
+  font-size: 1.3rem;
+  color: #fff;
+}
