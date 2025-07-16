@@ -22,7 +22,7 @@ Welcome to **Farmizo**, your destination for premium agricultural products like 
 - Informative blog about farming and health
 
 ## 📱 Follow Us
-- Instagram: [@Farmizo](https://instagram.com/farmizo)
+- Instagram: [@Farmizo.in](https://instagram.com/farmizo.in)
 - YouTube (coming soon)
 
 ---
