@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ContactPage.module.css';
 
-import { MainLayout } from '../../layouts/MainLayout';
+// import { MainLayout } from '../../layouts/MainLayout';
 
 const ContactPage = () => {
   return (

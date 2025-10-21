@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './HomePage.module.css';
 
-import { MainLayout } from '../../layouts/MainLayout';
+// import { MainLayout } from '../../layouts/MainLayout';
 import Button from '../../components/common/Button'
 
 const HomePage = () => {

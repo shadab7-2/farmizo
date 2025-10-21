@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './AboutPage.module.css';
 
-import { MainLayout } from '../../layouts/MainLayout';
-
 const AboutPage = () => {
   return (
    

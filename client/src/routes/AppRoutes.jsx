@@ -39,6 +39,7 @@ const AppRoutes = () => {
           </Route>
       {/* Auth layout */}
       <Route path="/auth" element={<AuthLayout />}>
+        <Route index element={<LoginPage />}></Route>
         <Route path="login" element={<LoginPage />}></Route>
         <Route path="signup" element={<SignupPage />}></Route>
       </Route>

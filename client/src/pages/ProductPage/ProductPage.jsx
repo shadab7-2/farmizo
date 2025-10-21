@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ProductPage.module.css';
 
-import { MainLayout } from '../../layouts/MainLayout';
+// import { MainLayout } from '../../layouts/MainLayout';
 // import ProductCard from '../../features/products/components/ProductCard';
  
 import ProductCard from '../../components/products/ProductCard';

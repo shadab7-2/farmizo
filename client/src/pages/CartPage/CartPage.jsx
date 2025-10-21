@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './CartPage.module.css';
 
-import { MainLayout } from '../../layouts/MainLayout';
+// import { MainLayout } from '../../layouts/MainLayout';
 import CartItem from '../../features/cart/components/CartItem';
 
 const DUMMY_CART = [
