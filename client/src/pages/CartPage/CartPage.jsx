@@ -25,7 +25,7 @@ const CartPage = () => {
   const total = DUMMY_CART.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   return (
-    <MainLayout>
+   
       <div className={styles.pageWrapper}>
         <h2 className={styles.heading}>Your Cart</h2>
 
@@ -46,7 +46,7 @@ const CartPage = () => {
           <p className={styles.empty}>Your cart is empty.</p>
         )}
       </div>
-    </MainLayout>
+   
   );
 };
 

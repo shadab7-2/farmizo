@@ -5,7 +5,7 @@ import { MainLayout } from '../../layouts/MainLayout';
 
 const ContactPage = () => {
   return (
-    <MainLayout>
+    
       <div className={styles.pageWrapper}>
         <h2 className={styles.heading}>Get in Touch</h2>
         <p className={styles.subheading}>We’d love to hear from you! Fill out the form below and we’ll get back to you soon.</p>
@@ -17,7 +17,7 @@ const ContactPage = () => {
           <button type="submit" className={styles.button}>Send Message</button>
         </form>
       </div>
-    </MainLayout>
+   
   );
 };
 

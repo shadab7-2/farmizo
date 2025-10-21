@@ -5,7 +5,7 @@ import { MainLayout } from '../../layouts/MainLayout';
 
 const AboutPage = () => {
   return (
-    <MainLayout>
+   
       <div className={styles.pageWrapper}>
         <h2 className={styles.heading}>About Farmizo</h2>
         <p className={styles.intro}>
@@ -29,7 +29,7 @@ const AboutPage = () => {
           </p>
         </section>
       </div>
-    </MainLayout>
+   
   );
 };
 

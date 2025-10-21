@@ -6,7 +6,7 @@ import Button from '../../components/common/Button'
 
 const HomePage = () => {
   return (
-    <MainLayout>
+  
       <section className={styles.hero}>
         <div className={styles.container}>
           <h1 className={styles.heading}>Welcome to Farmizo</h1>
@@ -14,7 +14,7 @@ const HomePage = () => {
           <Button>Explore Products</Button>
         </div>
       </section>
-    </MainLayout>
+  
   );
 };
 

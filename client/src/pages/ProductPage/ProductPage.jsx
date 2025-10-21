@@ -22,7 +22,7 @@ const DUMMY_PRODUCTS = [
 
 const ProductPage = () => {
   return (
-    <MainLayout>
+    
       <div className={styles.pageWrapper}>
         <h2 className={styles.heading}>Our Farm Products</h2>
         <div className={styles.productGrid}>
@@ -31,7 +31,7 @@ const ProductPage = () => {
           ))}
         </div>
       </div>
-    </MainLayout>
+    
   );
 };
 
