@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ProductPage.module.css';
 
-import { MainLayout } from '../../layouts/MainLayout';
+// import { MainLayout } from '../../layouts/MainLayout';
 // import ProductCard from '../../features/products/components/ProductCard';
  
 import ProductCard from '../../components/products/ProductCard';
@@ -22,7 +22,7 @@ const DUMMY_PRODUCTS = [
 
 const ProductPage = () => {
   return (
-    <MainLayout>
+    
       <div className={styles.pageWrapper}>
         <h2 className={styles.heading}>Our Farm Products</h2>
         <div className={styles.productGrid}>
@@ -31,7 +31,7 @@ const ProductPage = () => {
           ))}
         </div>
       </div>
-    </MainLayout>
+    
   );
 };
 

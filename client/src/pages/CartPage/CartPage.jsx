@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './CartPage.module.css';
 
-import { MainLayout } from '../../layouts/MainLayout';
+// import { MainLayout } from '../../layouts/MainLayout';
 import CartItem from '../../features/cart/components/CartItem';
 
 const DUMMY_CART = [
@@ -25,7 +25,7 @@ const CartPage = () => {
   const total = DUMMY_CART.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   return (
-    <MainLayout>
+   
       <div className={styles.pageWrapper}>
         <h2 className={styles.heading}>Your Cart</h2>
 
@@ -46,7 +46,7 @@ const CartPage = () => {
           <p className={styles.empty}>Your cart is empty.</p>
         )}
       </div>
-    </MainLayout>
+   
   );
 };
 

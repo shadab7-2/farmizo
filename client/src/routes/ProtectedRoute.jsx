@@ -1,11 +1,17 @@
-import React from 'react';
-import { Navigate } from 'react-router-dom';
-
-// Dummy logic for example (replace with real auth check)
-const isAuthenticated = true; // change this to your real logic
+import React from "react";
+import { Navigate } from "react-router-dom";
+import useAuth from "../hooks/useAuth"; // your custom auth hook
 
 const ProtectedRoute = ({ children }) => {
-  return isAuthenticated ? children : <Navigate to="/" replace />;
+  const { user } = useAuth(); // check if user is logged in
+
+  if (!user) {
+    // user not logged in → redirect to login
+    return <Navigate to="/auth/login" replace />;
+  }
+
+  // user logged in → render children
+  return children;
 };
 
 export default ProtectedRoute;
